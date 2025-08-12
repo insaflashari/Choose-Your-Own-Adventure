@@ -29,13 +29,14 @@ class StoryGenerator:
     # Supports custom API keys and base URLs from environment variables (for deployment setups like Choreo).
     @classmethod
     def _get_llm(cls):  # private method
+        #for production!!!!
         openai_api_key = os.getenv("CHOREO_OPENAI_CONNECTION_OPENAI_API_KEY")
         serviceurl = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
 
         if openai_api_key and serviceurl:
-            return ChatOpenAI(model="gpt-4o-mini", api_key=openai_api_key, base_url=serviceurl)
+            return ChatOpenAI(model="gpt-4o-mini", api_key=openai_api_key, base_url=serviceurl) #pass different openai key and baseurl from choreo
 
-        return ChatOpenAI(model="gpt-4o-mini")
+        return ChatOpenAI(model="gpt-4o-mini") #if run locally on our computer
 
     # This is the main function you call when you want to make a new story.
     @classmethod
