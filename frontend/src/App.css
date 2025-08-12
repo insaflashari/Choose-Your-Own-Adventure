@@ -35,10 +35,23 @@ header {
   margin-bottom: 2rem;
 }
 
+
 header h1 {
-  color: var(--primary-color);
+  color: var(--primary-color); /* or use a solid color like #fff or #222 */
+  font-weight: 700;
+  font-size: 3rem;
   margin-bottom: 0.5rem;
+  
+  /* Add text shadow for contrast */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  
+  /* Optional: background behind text */
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
 }
+
 
 footer {
   text-align: center;
