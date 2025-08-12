@@ -24,7 +24,7 @@ body {
   background-color: var(--background-color);
 
     /* Background image */
-  background-image: url('images/background.jpg'); /* adjust path as needed */
+  background-image: url('images/background.png'); /* adjust path as needed */
   background-size: cover;          /* cover entire viewport */
   background-position: center;     /* center the image */
   background-repeat: no-repeat;    /* don’t repeat */
