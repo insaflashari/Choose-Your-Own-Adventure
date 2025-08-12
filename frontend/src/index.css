@@ -25,6 +25,24 @@ body {
   min-height: 100vh;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+
 h1 {
   font-size: 2.5rem;
   line-height: 1.2;
