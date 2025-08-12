@@ -20,6 +20,9 @@ Make choices, explore different paths, and see where your decisions lead.
 
 ---
 
+<img width="1365" height="591" alt="image" src="https://github.com/user-attachments/assets/ddadb636-d3de-4a33-919c-03cf42ae7b42" />
+
+
 ## How to Play
 1. Run the game.
 
