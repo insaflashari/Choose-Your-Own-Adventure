@@ -20,7 +20,7 @@ Make choices, explore different paths, and see where your decisions lead.
 
 ---
 
-##How to Play
+## How to Play
 1. Run the game.
 
 2. Enter a theme or setting you want (e.g., fantasy, sci-fi, mystery).
