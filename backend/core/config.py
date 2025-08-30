@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     API_PREFIX: str = "/api"  # Base URL prefix for all API endpoints
     DEBUG: bool = False  # Controls debug mode (affects database URL generation logic)
 
-    DATABASE_URL: str   # The database connection string (set dynamically if not in debug mode)
+    DATABASE_URL: str = None  # The database connection string (set dynamically if not in debug mode)
 
     ALLOWED_ORIGINS: str = ""  # Comma-separated list of origins allowed for CORS requests
 
